@@ -1,0 +1,37 @@
+http://www.agilelove.com/user-stories/user-story/
+
+WHAT: 
+A user story is a brief description of a desired feature, which contains enough information for the team to estimate it and potentially develop it and test it in one sprint. The typical format of a user story is as follows:
+“As a <role>, I want <goal/desire> so that <benefit>”
+
+Example:
+“As a job seeker I want to add a new resume to the site so that I can apply for jobs quickly”
+(Link has an image of a user story - but see comment from a Scrum Coach below)
+
+WHO:
+Anybody in the team can write user stories and add them to the product backlog but Product Owner owns the product backlog so it is expected of him to write and prioritize the user stories in the product backlog.
+
+WHEN:
+One of the first things to do right after the start of a project is to write user stories for the product to be developed and add them to the product backlog and also prioritize them. But the User stories are written throughout the life of a project.
+
+Comments from other people (in relation to the image of a "typical user story")
+(User1)
+Each acceptance criteria would be a better example of a good user story.
+
+(User2 - reply to above)
+Agreed. Here’s some thoughts. Of course everyone can have different views. These are my comments regarding a few of the stories…
+Create, Search, Update, Archive, Remove are each a unique user story.
+“Provide a means for a CV title” is an activity of creating or updating a CV.
+“Create up to 3 CVs” belongs to the create story.
+“text version of CV” is an activity of of the Create or Update stories
+“sign on” is a user story as well as the typical forgot user id and PW and new user…
+“ensure the job seeker’s CV is stored in the CV database” is the same as the Create User story.
+
+(Scrum Coach - reply to above)
+Also, I have worked on projects where there are so many Stories that start something like “As a System User….” – it turns into a woods and trees situation.
+An alternative, which as a Coach I encourage, is to put the business objective first.
+In Order to..
+As a..
+I want..
+So that..
+It tends to divide the backlog a little more, visually. And yes, I have seen it work better.
