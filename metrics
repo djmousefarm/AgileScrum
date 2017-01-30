@@ -1,0 +1,29 @@
+
+
+http://scrumftw.blogspot.co.uk/2008/10/what-metrics-should-be-collected-and.html
+
+What metrics should be collected and how to measure and use "Velocity"? 
+
+What should be measured during a sprint? Obviously, you can measure a million different things. My suggestion below is tilted towards the simplistic approach. I like to keep measurements and maths to a minimum. Don’t get me wrong; I love Excel, metrics and complicated statistical formulas... But as far as the team goes, and what they need to care about and focus on, I suggest sparing them the nittybitty details and just collect the bare essentials.
+
+Estimated Velocity: The sum of the story point value of all those User Stories taken into the sprint backlog (at start of sprint). You can read some more about the concept of "Velocity" here, on the Scrum Alliance site.
+Actual Velocity: The sum of the story point value of all those User Stories that are determined to be Done-Done at end of sprint. 
+Average Actual Velocity: This should be the Actual Velocity averaged out over a number of sprints (provided the team i relatively stable – or this will have little or no meaning). 
+Mandays in the sprint: This is simply the number of persons in the team multiplied by the number of workdays available in the sprint.
+Focus Factor: The Actual Velocity divided by the number of Mandays in the sprint.
+
+Example: Let’s say I have a team consisting of 4 full-time individuals and one person working half-time with some other duties. Let’s say they work in 2 week sprints. Let’s further say that the team takes in a total of 35 story points at sprint start. Let’s say they manage to complete (Done-Done) a total of 28 story points. So; 
+Estimated Velocity = 35
+Actual Velocity = 28
+Average Actual Velocity = Avg(28) (So far only 1 sprint to average over)
+Mandays in sprint = 4.5 persons * 10 days = 45. 
+Focus Factor = 28 / 45 = ~0.6. 
+
+So, what values do you use during Sprint Planning? I suggest the following:
+Average Actual Velocity, or at least last sprint’s Actual Velocity, to compare the new sprint’s Estimated Velocity to, as a sanity check.
+Probable Velocity = Mandays available in the new sprint X Focus Factor.
+Example (continued from the example above): If the team and the sprint lengths remain unchanged then the team should probably not take in more than approximately 28-30 story points into the new sprint. If the new sprint is, for example, 15 days instead, you can use the previously measured Focus Factor to calculate the probable velocity; (4.5 persons * 15 days = 67.5 mandays) * 0.6 FocusFactor = ~41 story points. 
+
+The most important thing is that the team feels comfortable with the commitment on the sprint planning. The sum of the stories selected by the team should however be verified against previous velocity to make sure that the team hasn’t substantially under- or over-committed.
+
+A team’s velocity is a measurement of the reality. It can’t be “too low” because the reality is what it is; making up excuses to why an actual velocity is lower than its estimated is not meaningful. If you see an actual velocity that is lower than your estimated then you will want to lower your estimated velocity next sprint. “But”, you say, “the velocity needs to be higher, it is too low, the project will take too long”. … Yeah, right. But it is not the velocity that needs to be higher, it is the environment in which the team operates which needs to be different. You will only fool yourself (and the stakeholders) if you make up excuses and count on an optimistic, higher velocity than your actual; all you’ll manage to do is to make your plan look good, but it will then – inevitably – be a lousy, incorrect, optimistic and unrealistic plan. The one thing (except resources) that affects velocity is impediments. Remove impediments and the team’s velocity will go up. This should be your approach if you feel the velocity “is too low”.
