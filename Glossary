@@ -1,0 +1,119 @@
+https://www.scrumalliance.org/community/articles/2007/march/glossary-of-scrum-terms#1110
+
+Burndown Charts
+Burndown charts show work remaining over time. Work remaining is the Y axis and time is the X axis. The work remaining should jig up and down and eventually trend downward.
+The Scrum books define a sprint burndown chart as a place to see daily progress, and a product burndown chart as where to show monthly (per sprint) progress.
+
+Daily Scrum Meeting
+A fifteen-minute daily meeting for each team member to answer three questions:
+"What have I done since the last Scrum meeting? (i.e. yesterday)" 
+"What will I do before the next Scrum meeting? (i.e. today)" 
+"What prevents me from performing my work as efficiently as possible?" 
+The ScrumMaster ensures that participants call sidebar meetings for any discussions that go too far outside these constraints.
+The Scrum literature recommends that this meeting take place first thing in the morning, as soon as all team members arrive.
+
+Impediments
+Anything that prevents a team member from performing work as efficiently as possible is an impediment. Each team member has an opportunity to announce impediments during the daily Scrum meeting. The ScrumMaster is charged with ensuring impediments get resolved. ScrumMasters often arrange sidebar meetings when impediments cannot be resolved on the spot in the daily Scrum meeting.
+
+Product Backlog
+The product backlog (or "backlog") is the requirements for a system, expressed as a prioritized list of product backlog Items. These included both functional and non-functional customer requirements, as well as technical team-generated requirements. While there are multiple inputs to the product backlog, it is the sole responsibility of the product owner to prioritize the product backlog.
+During a Sprint planning meeting, backlog items are moved from the product backlog into a sprint, based on the product owner's priorities.
+
+Product Backlog Item
+In Scrum, a product backlog item ("PBI", "backlog item", or "item") is a unit of work small enough to be completed by a team in one Sprint iteration. Backlog items are decomposed into one or more tasks.
+See also backlog effort estimation unit.
+
+Product Backlog Item Effort
+Some Scrum practitioners estimate the effort of product backlog items in ideal engineering days, but many people prefer less concrete-sounding backlog effort estimation units. Alternative units might include story points, function points, or "t-shirt sizes" (1 for small, 2 for medium, etc.). The advantage of vaguer units is they're explicit about the distinction that product backlog item effort estimates are not estimates of duration.  Also, estimates at this level are rough guesses that should never be confused with actual working hours.
+Note that sprint tasks are distinct from product backlog items and task effort remaining is always estimated in hours.
+
+Product Burndown Chart
+In Scrum, the product burndown chart is a "big picture" view of a project's progress. It shows how much work was left to do at the beginning of each sprint. The scope of this chart spans releases; however, a release burndown chart is limited to a single release.
+
+For more on product and release burndown charts, please see:
+http://www.mountaingoatsoftware.com/release_burndown
+
+Product Owner Role
+In Scrum, a single person must have final authority representing the customer's interest in backlog prioritization and requirements questions.
+This person must be available to the team at any time, but especially during the sprint planning meeting and the sprint review meeting.
+
+Challenges of being a product owner:
+Resisting the temptation to "manage" the team. The team may not self-organize in the way you would expect it to. This is especially challenging if some team members request your intervention with issues the team should sort out for itself. 
+Resisting the temptation to add more important work after a Sprint is already in progress. 
+Being willing to make hard choices during the sprint planning meeting. 
+Balancing the interests of competing stakeholders. 
+
+Release
+The transition of an increment of potentially shippable product from the development team into routine use by customers. Releases typically happen when one or more sprints has resulted in the product having enough value to outweigh the cost to deploy it.
+"The product is released to customer or marketplace obligations. The release balances functionality, cost, and quality requirements against date commitments." (Schwaber/Beedle, Agile Software Development with Scrum, p. 80).
+
+Release Burndown Chart
+In Scrum, the release burndown chart is a "big picture" view of a release's progress. It shows how much work was left to do at the beginning of each sprint comprising a single release. The scope of this chart is a single release; however, a product burndown chart spans all releases.
+For more on product and release burndown charts, please see:
+http://www.mountaingoatsoftware.com/release_burndown
+
+Scrum Roles
+There are three essential roles in any Scrum project:
+Product Owner 
+ScrumMaster 
+Team 
+
+ScrumMaster Role
+The ScrumMaster is a facilitator for the team and product owner. Rather than manage the team, the ScrumMaster works to assist both the team and product owner in the following ways:
+Remove the barriers between the development and the product owner so that the product owner directly drives development. 
+Teach the product owner how to maximize return on investment (ROI), and meet his/her objectives through Scrum. 
+Improve the lives of the development team by facilitating creativity and empowerment. 
+Improve the productivity of the development team in any way possible. 
+Improve the engineering practices and tools so that each increment of functionality is potentially shippable. 
+Keep information about the team's progress up to date and visible to all parties. 
+Source: Agile Project Management with Scrum, Ken Schwaber
+ 
+Sprint
+An iteration of work during which an increment of product functionality is implemented. By the book, an iteration lasts 30 days. This is longer than in other agile methods to take into account the fact that a functional increment of product must be produced each sprint.
+The sprint starts with a one-day sprint planning meeting. Many daily Scrum meetings occur during the sprint (one per day). At the end of the sprint we have a sprint review meeting, followed by a sprint retrospective meeting.
+During the sprint, the team must not be interrupted with additional requests. Guaranteeing the team won't be interrupted allows it to make real commitments it can be expected to keep.
+Out of practical necessity, some teams choose to bend this rule by declaring some team members 80 percent available at the outset so they still have some cycles left for "Priority One" bugs and emergencies. But this is a slippery slope and should be avoided whenever possible.
+
+Sprint Backlog
+Defines the work for a sprint, represented by the set of tasks that must be completed to realize the sprint's goals, and selected set of product backlog items.
+
+Sprint Burndown Chart
+A sprint burndown chart (or "sprint burndown graph") depicts the total task hours remaining per day. This shows you where your team stands regarding completing the tasks that comprise the product backlog items that achieve the goals of the sprint. The X-axis represents days in the sprint, while the Y-axis is effort remaining (usually in ideal engineering hours).
+To motivate the team, the sprint burndown chart should be displayed prominently. It also acts as an effective information radiator . A manual alternative to this is a physical task board .
+Ideally the chart burns down to zero by the end of the sprint. If the team members are reporting their remaining task hours realistically, the line should bump up and down chaotically. The profile shown below is typical, and demonstrates why the "percentage done" concept of traditional project management breaks down. Assuming we started measuring on July 26, what "percentage done" were we on July 28?
+
+Sprint Goals
+Sprint goals are the result of a negotiation between the product owner and the development team.
+Meaningful goals are specific and measurable. Instead of "Improve scalability" try "Handle five times as many users as version 0.8."
+Scrum focuses on goals that result in demonstrable product. The product owner is entitled to expect demonstrable product (however small or flimsy) starting with the very first Sprint. In iterative development, subsequent Sprints can increase the robustness or size of the feature set.
+Have your team commit to goals that anyone will be able to see are met (or not met) at the end of the sprint. At sprint review meetings, the sprint demonstration is conducted after which the team asks the product owner whether (s)he feels the goals were met.
+While some specific product backlog items may not be done at the end of a sprint, it should be very unusual for a team not to meet its sprint goals. Scrum requires the team to notify the product owner as soon as it becomes aware it will not meet its goals.
+
+Sprint Planning Meeting
+The Sprint planning meeting is a negotiation between the team and the product owner about what the team will do during the next sprint.
+The product owner and all team members agree on a set of sprint goals, which is used to determine which product backlog items to commit from the uncommitted backlog to the sprint. Often new backlog items are defined during the meeting. This portion of the sprint planning meeting is time-boxed to four hours.
+Typically the team will then excuse the product owner from the room and break the backlog Items down into tasks. The product owner is expected to be on call during this phase (previously called the sprint definition meeting) for renegotiation or to answer questions that affect the time estimates. This portion of the sprint planning meeting is time-boxed to four hours. Sometimes teams insert placeholder tasks (with rough estimates) for the product backlog items they don't expect to start working until later in the sprint.
+
+Sprint Retrospective Meeting
+The sprint retrospective meeting is held at the end of every sprint after the sprint review meeting. The team and ScrumMaster meet to discuss what went well and what to improve in the next sprint. The product owner does not attend this meeting.
+The sprint retrospective should be time-boxed to three hours.
+Kelley Louie (Certified Scrum Practitioner) writes: "The sprint retrospective meeting is an integral part of the inspect and adapt process. Otherwise, the team will never be able to improve their overall output and not focus on the overall team performance. The ScrumMaster must pay attention to this meeting and work towards resolving the impediments that may be slowing down the team."
+
+Sprint Task
+In Scrum, a sprint task (or task) is a unit of work generally between four and sixteen hours. Team members volunteer for tasks. They update the estimated number of hours remaining on a daily basis, influencing the sprint burndown chart. Tasks are contained by backlog items.
+Scrum literature encourages splitting a task into several if the estimate exceeds twelve hours.
+
+Team
+A team (or "Scrum team") is optimally comprised of seven plus or minus two people.
+For software development projects, the team members are usually a mix of software engineers, architects, programmers, analysts, QA experts, testers, UI designers, etc. This is often called "cross-functional project teams". Agile practices also encourage cross-functional team members.
+During a sprint, the team self-organizes to meet the sprint goals. The team has autonomy to choose how to best meet the goals, and is held responsible for them. The ScrumMaster acts as a guardian to ensure that the team is insulated from the product owner.
+Scrum also advocates putting the entire team in one team room.
+
+Team Member
+In Scrum parlance, a team member is defined as anyone working on sprint tasks toward the sprint goal.
+
+Velocity
+In Scrum, velocity is how much product backlog effort a team can handle in one sprint. This can be estimated by viewing previous sprints, assuming the team composition and sprint duration are kept constant. It can also be established on a sprint-by-sprint basis, using commitment-based planning.
+Once established, velocity can be used to plan projects and forecast release and product completion dates.
+How can velocity computations be meaningful when backlog item estimates are intentionally rough? The law of large numbers tends to average out the roughness of the estimates.
+- See more at: https://www.scrumalliance.org/community/articles/2007/march/glossary-of-scrum-terms#1110
