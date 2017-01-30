@@ -1,0 +1,25 @@
+https://www.reddit.com/r/agile/comments/5q67sy/how_long_should_qa_take/
+
+Quite new to the role of BA, so help and advice required, please.
+I have on my team a couple of testers and their story estimates seem wildly massive, yet they always agree. Even simple bug fixes get estimated at 2+ days. The test manager is insisting on pages of documentation per fix...Surely documenting the testing shouldn't take longer than it took for the developer to actually fix??
+I'm now getting a backlog of stories that have been coded and fixed, just waiting for testing and not getting released.
+My scrum master insists it takes what it takes and is trying to procure more testing resource, I can't help but think we are just wasting time.
+
+I have seen this before many times, and it is formed by the QA mindset. QA's want to be precise, they want to cover all angles etc etc. You cannot blame them for these delays, because it is exactly what is expected from them in their minds.
+However when they start being a bottleneck, these processes should be addressed and there are a few ways I recommend. 
+Limiting edge case testing, implement happy path testing as the base. 
+Reducing documentation requirements. 
+Automation testing. 
+Get QA involved earlier and more often. 
+Clear expectations for developers, aka a text field for money should only accept numerical currency values. A checklist is helpful, so simple bugs can be caught prior to QA. QA is EVERYONES responsibility.
+Acceptance testing upfront, this way devs can also test. 
+Sometime QA overthinks what QA stands for, it is not the highest quality, it is the fit for purpose foremost. 
+A final note is, evaluate your QA backlog, if they have simple bugs or recurring problems which they are dealing with, then maybe the problem is with the devs. 
+
+It sounds like the team has a process they're already using as part of their definition of done. It will be important to know what the pages of documentation for a small bug fix is and is for. Documenting a fix could mean different things but generally mapping a bug fix, to a test, to a branch is important.
+Beyond that you can imagine that a bug fix doesn't usually need an update to documentation since it was already expected to be a released feature. A new feature will require new documentation. 
+Is your team writing automation? In that case it's not just normal, but sometimes assumed that the test phase will be much longer than the code fix phase. Fixing a typo in code is trivial, but the test to prove that it's working from now on may not be. 
+Also if simple bug fixes take 2+ days I assume that this represents a larger percentage of time in test. What about larger stories? Does the percentage of code fix to test start to shift?
+
+This isn't a black and white type thing. I spent most of he last 20 years in QA and there have been huge variances in QA effort that depend on complexity of code, complexity of test scenarios, depth of automation, depth of unit tests, regulations impacted, size of team, maturity of team, level of interaction between qa and dev, reliability expectations of new code, and more.
+Ultimately, try to learn what they are doing, ask questions from a place of curiosity (rather than justification), and you'll get an appreciation for their perspective. Once you do, then you can start to have discussions about what to change and make economic or strategic decisions about how to adjust that time and where you can safely increase risk.
