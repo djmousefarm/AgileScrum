@@ -1,3 +1,4 @@
+
 http://www.agilelove.com/user-stories/user-story/
 
 WHAT: 
@@ -26,12 +27,98 @@ Create, Search, Update, Archive, Remove are each a unique user story.
 “text version of CV” is an activity of of the Create or Update stories
 “sign on” is a user story as well as the typical forgot user id and PW and new user…
 “ensure the job seeker’s CV is stored in the CV database” is the same as the Create User story.
-
 (Scrum Coach - reply to above)
-Also, I have worked on projects where there are so many Stories that start something like “As a System User….” – it turns into a woods and trees situation.
-An alternative, which as a Coach I encourage, is to put the business objective first.
+Also, I have worked on projects where there are so many Stories that start something like “As a System User….” – it turns into a woods and trees situation.An alternative, which as a Coach I encourage, is to put the business objective first.
 In Order to..
 As a..
 I want..
 So that..
 It tends to divide the backlog a little more, visually. And yes, I have seen it work better.
+
+Take care, the below two blog posts reference to aspects of Kanban and may not be Agile!
+
+The Definition of Ready - http://blog.xebia.com/the-definition-of-ready/
+I give CSM trainings with Jeff Sutherland, and about half a year ago he had put something in his material called "the dynamic model of Scrum". The essential feature was the addition of a READY state opposite the DONE state. The idea here is that a team needs to be in a stable, known situation to be able to perform well. It immediately struck a chord with me: I had seen so many teams thrash because the Product Owner could not give them a clear objective, the READY state was exactly the goal to work to. But what was it really, and how do you get there? By now I think I've got some good answers to these questions.
+
+What does the READY state do?
+
+In a self-organizing team setting a clear destination it very important: self-organization does not exist if you have nothing to organize TO. The READY state prevents team thrashing by ensuring that the preconditions for a good Sprint execution have been met.
+
+Defining READY
+
+READY is defined by the Definition of READY. It is similar to the Definition of DONE, but with the following differences. Whereas with the Definition of DONE the "supplier" is the Team and the "client" is the Product Owner, it's the other way around with the Definition of READY: the Team is the "client" and the Product Owner is the "supplier". Even though I will detail the Definition of READY later, in the end it boils down to one statement: READY is when the team says: "Ah, we get it".
+Even though you can put any precondition in the Definition of READY, the need for a good backlog overshadows all other considerations, so you'll definitely need to address two items: readiness of User Stories, and readiness of the Backlog.
+
+When is a User Story READY?
+
+I have found that a User Story is ready when you have answered three questions: Why?, What? and How?, it has been estimated and it is small enough.
+
+Why?: What are the stakeholders trying to achieve? What are their goals? What is the business context? What is the Quantified Value?
+What?: What is the Outcome Vision? What is the end result of the user story?
+How?: What is the Implementation Strategy? What is the associated cost (story points)? Is the story small enough (story points vs. team velocity)?
+
+Note that with answering these question I do not want to imply that you need a whole lot of documentation or artifacts. Again, it's whatever the team says it needs. If the back of a napkin suffices, go for it. If the team needs more, provide that. Note that the detail level needed must be determined per user story. Some will be business as usual, and you may suffice with a simple "I want one of those, but this time in green". Others could for instance be related to a new process in the Intensive Care ward of a hospital. You might just need a tad more there... 
+I use the term "implementation strategy" to further clarify the level of detail needed. Fully specifying the How? would lead you back to waterfall, but you can't make a points estimation if the team does not have a rough idea of how they'll tackle the user story. So you go as far with specifying the implementation as is needed for a points estimation. Note that this is a natural side effect of planning poker sessions, so the easiest is to capture the outcome of that discussion along with the estimation. And I really advise that you do it, I've seen too many cases where the team wonders why they gave that user story 5 points, just two days after the planning poker session... 
+In the end a User Story is READY if a team can implement it, and a Product Owner can prioritize it.
+
+When is the Backlog READY?
+
+The backlog is READY when about 1,5-2 Sprint's worth of User Stories at the top of the backlog is READY, and those user stories are sufficiently small to allow good team flow.
+
+And finally, follow this mantra
+
+Don't let anything that's not READY into your Sprint, and let nothing escape that's not DONE.
+
+Not all backlog items are equal. A backlog item starts out as a rough sketch - usually just the As a.. I want... So That... stanza - and needs to be fleshed out to the extent that it can be picked up by the team in a Sprint. Just like a team has a basic workflow getting stuff to Done, the same applies for the Product Owner role. Scrum does not have any specific support for a Product Owner: somehow the Product Backlog just "happens". In this post I'll try to fill that gap with respect to the process that a Product Owner can follow.
+I'll explain a partitioning of the backlog that maps onto a flow, the nature of those partitions and how you proceed through them to get enough stuff Ready for the team to pick up in the next Sprint.
+
+Flow to READY - http://blog.xebia.com/flow-to-ready-iterate-to-done
+
+The overall flow of work through a Scrum team is that the Product Owner role picks up new stuff, gets it READY, and the Team role picks it up to get it to DONE. Note that I explicitly use the word "role" here: team members have a role to play in supporting the Product Owner role to get backlog items to READY.
+
+Partitioning the backlog
+
+A backlog can roughly be partitioned in four areas based on the overall flow:
+
+items that are currently in the Sprint, 
+items that are Ready, 
+items that you're preparing to Ready, and
+the rest: new stuff.
+
+Of course this is an idealized view of things. In practice the lines are blurred somewhat because the mapping of priority on the workflow steps is not always as clean as you’d like. New items might show up really high in priority, putting it in between the READY items. On the other hand this way of viewing the backlog could be used to enforce the prioritization: something that’s READY could by definition be prioritized higher than something that’s not.
+From partitioning to flow
+
+The fact that I've used one color for "New" and "Ready", and another for "Preparing" and "In Sprint" is not a coincidence: "New" and "Ready" are prioritized buffers, "Preparing" and "In Sprint" are Work-In-Progress. Let's go through the flow step-by-step.
+
+Prioritized buffer: New
+
+Backlog items in the New state are the ones you haven't started working on yet, at least not to the extent that you're getting them to READY. Even so, in practice I've seen that it's wise to perform a minimal triage on these items: if you have every mad idea on there, you'll quickly be inundated in an avalanche of items. Stakeholders tend to say "I've got a thousand ideas!", but many of them are just that: ideas. Only a small fraction are actually realistic or useful to implement. This initial triage should be kept simple, but it does put some discipline with stakeholders putting in their requirements. Don't be too worried about stakeholders complaining, in general a stakeholder will appreciate knowing what they need to do to get their requirements in :-). To be put on the backlog as New, a stakeholder should provide the following:
+a story solely in terms of the business experience that describes what they experience and what they need without referring to how the product would support it
+user story stanza (As a.. I want... So that...)
+a (rough) valuation of benefit
+a rough indication of size (i.e. cost): small, medium, large. (Note that this is best guesstimated by a team member or the product owner after a chat with the stakeholder: they have more knowledge of the product)
+The business urgency gives you a rough prioritization, which enables you to decide which items to pull in first.
+
+Work-In-Progress: Preparing
+
+This step is the big one as far as the Product Owner is concerned: it's where the core Product Owner work gets done.
+The Product Owner is the single point of contact for all stakeholders, and this is of course intentional. There needs to be a single focal point for all requirements and prioritization, otherwise it will fall back to the team role and the Product Owner role is all but useless. An unfortunate side effect for our poor Product Owner is that they constantly get bombarded with requirements and pressure from all stakeholders. The result is that a Product Owner is stretched thin trying to deal with it all. I've found that this is where the flow/kanban style really shines: explicitly limiting work in progress is one of the best tools to bringing some sanity in the Product Owner's life.
+The Product Owner pulls items into the Preparing step according to capacity. Just like a team pulls in work to capacity and does not change it until the Sprint is over, a Product Owner should pull in a number of items (I've seen two per person in the Product Owner role a lot, don't know yet if that's a general thing, though), work on them until they're Ready, and only pull in new items when a "free slot" opens up in the preparing step.
+The Product Owner does not need to (and in most cases can't) provide all information, but is responsible for making sure that someone does, so that the backlog item will get to Ready. This means that a Product Owner will talk with stakeholders to ask them for more information, with the Team to provide an estimation of implementation complexity, and anybody else who is needed to provide clarity and information. This is quite a job, and in larger organizations it's not unusual to see multiple people (often analists) supporting this role.
+Because of the explicit step in the flow it is now possible to measure Product Owner performance. The equivalent of velocity in the flow style is cycle time: the average time needed to bring a backlog item from New to Ready. A backlog item that is stuck will be easier to recognize, since it will remain in the Preparing step longer than is usual. It also helps to plan Product Owner capacity. Comparing the cycle time with the a number of backlog items that is consumed per Sprint by the team helps to determine if the Product Owner is going fast enough to keep up.
+A Product Owner's speed is not measured in a backlog item's story points but in number of backlog items because the amount of work for each item is roughly the same: every item needs its questions answered regardless of the size. Large backlog items may be more work, but in most cases they will have to be broken up into sizes that are manageable by the team. This translates into more backlog items for (originally) large ones, so large items are factored in this way.
+When a backlog item is Ready it can be moved into the Ready buffer.
+
+Prioritized buffer: The Ready Buffer
+
+I have found it very useful to think of the list of Ready items as a buffer. A Product Owner's productivity needs to be such that this buffer is full enough when the next Sprint starts. Tracking the size of the buffer (in story points, since now the capacity of the Team is the relevant one) is a very good way to see if the Product Owner is getting into trouble. You could use a burn-down chart, a burn-up chart, or simply a continuous trend line of buffer size, but I find it a great help that a Product Owner has access to the same type of trend information that is available to Teams when they use burn-down charts.
+There are two levels of Ready: each backlog item needs to be Ready, but the backlog needs to be Ready as well, just before the next Sprint. Backlog-Ready means that the Ready buffer is full enough for an iterations' worth of work, and some extra work as "spare change" in case of renegotiation, last minute decisions, insights or priority shifts. In practice going for 1.5 to 2 iterations' worth is a good target. The reverse is also true: if the buffer is really full, more than two Sprints' worth of Ready items, you're likely wasting work since reality will change before you get round to the later items in the buffer (items become "unready"), forcing extra work. In that case you it's better to increase the Team capacity or use the free time for some crystal ball gazing or market research :-).
+
+Work-In-Progress: In Sprint
+
+Of course this step is relatively easy to describe, this is where all the usual Scrum stuff enters the picture :-). As a Product Owner you'll track which items are In Sprint, but your work is not entirely done. In an analogy of a quote on design: "a good design does not depend on one big decision, but on hundreds of little ones", a Team will need you around to unblock them with decisions. During a Sprint a Team will come up with alternatives for details of the implementation. Often these alternatives have an impact on the end result: they might have an easy option but it will not be exactly what was asked, or a team might find a part of the implementation is harder to do than expected. In that case you need to be around to help them forward.
+
+Summary
+
+The backlog can be partitioned in four parts that you can connect with a flow. Since this blog post is getting long enough as it is I'll write another one on how you support this process with a Kanban board and electronic tools.
+
