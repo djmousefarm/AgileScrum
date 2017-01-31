@@ -117,3 +117,15 @@ In Scrum, velocity is how much product backlog effort a team can handle in one s
 Once established, velocity can be used to plan projects and forecast release and product completion dates.
 How can velocity computations be meaningful when backlog item estimates are intentionally rough? The law of large numbers tends to average out the roughness of the estimates.
 - See more at: https://www.scrumalliance.org/community/articles/2007/march/glossary-of-scrum-terms#1110
+
+Technical Debt
+Technical debt is a concept in programming that reflects the extra development work that arises when code that is easy to implement in the short run is used instead of applying the best overall solution. Technical debt is commonly associated with extreme programming, especially in the context of refactoring.
+https://www.atlassian.com/agile/technical-debt
+https://www.agilealliance.org/introduction-to-the-technical-debt-concept/
+http://blogs.atlassian.com/2014/09/getting-right-data-developer-pain/?_ga=1.11415031.212059618.1467110346
+https://www.agilealliance.org/project-management-and-technical-debt/
+
+
+
+
+
