@@ -1,0 +1,9 @@
+Edge Case Testing
+An edge case is a problem or situation that occurs only at an extreme (maximum or minimum) operating parameter. For example, a stereo speaker might noticeably distort audio when played at its maximum rated volume, even in the absence of other extreme settings or conditions.
+https://en.wikipedia.org/wiki/Edge_case
+
+Happy Path Testing
+Happy path testing is a well-defined test case using known input, which executes without exception and produces an expected output. [citation needed] Happy day scenario and golden path are synonyms for happy path.
+https://en.wikipedia.org/wiki/Happy_path
+
+
